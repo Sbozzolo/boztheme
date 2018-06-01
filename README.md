@@ -1,2 +1,3 @@
-# boztheme
-Flat beamer theme
+# BozTheme
+
+A simple and nice beamer theme
