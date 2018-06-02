@@ -177,6 +177,9 @@
 \fi%
 
 \renewcommand\UrlFont{\Medium}
+
+
+
 % Titlepage
 \setbeamerfont{title}{family=\Light,size=\fontsize{16}{16}}
 \setbeamerfont{subtitle}{family=\Light,size=\fontsize{12}{14}}
@@ -312,6 +315,18 @@
 % Captions
 %---------------------------------------------------------------------
 \setbeamertemplate{caption label separator}{: }
+
+%---------------------------------------------------------------------
+% Thank you frame
+%---------------------------------------------------------------------
+
+\newcommand{\thankyou}[1]{
+\setbeamercolor{background canvas}{bg=bozWarmGreyDark}
+\begin{frame}[plain]
+  \centering
+    \vfill\usebeamerfont{section subtitle}\textcolor{white}{\Medium #1}\vfill  
+    \end{frame}
+}   
 
 %---------------------------------------------------------------------
 % Blocks
